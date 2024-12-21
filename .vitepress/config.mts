@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "A Awesome Site",
   srcDir: './src',
-  base: '/repo/',
+  base: '/fduer-manual/',
   description: "A site of manual for fduers",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

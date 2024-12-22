@@ -1,7 +1,4 @@
 import {
-  useMediaQuery
-} from "./chunk-5OYVI2TY.js";
-import {
   computed,
   ref,
   shallowRef,
@@ -39,6 +36,9 @@ import { default as default14 } from "/Users/annacheng/Documents/github/manual/n
 import { default as default15 } from "/Users/annacheng/Documents/github/manual/node_modules/.pnpm/vitepress@1.5.0_@algolia+client-search@5.18.0_postcss@8.4.49_search-insights@2.17.3/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
 import { default as default16 } from "/Users/annacheng/Documents/github/manual/node_modules/.pnpm/vitepress@1.5.0_@algolia+client-search@5.18.0_postcss@8.4.49_search-insights@2.17.3/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
 import { default as default17 } from "/Users/annacheng/Documents/github/manual/node_modules/.pnpm/vitepress@1.5.0_@algolia+client-search@5.18.0_postcss@8.4.49_search-insights@2.17.3/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
+
+// node_modules/.pnpm/vitepress@1.5.0_@algolia+client-search@5.18.0_postcss@8.4.49_search-insights@2.17.3/node_modules/vitepress/dist/client/theme-default/composables/sidebar.js
+import { useMediaQuery } from "@vueuse/core";
 
 // node_modules/.pnpm/vitepress@1.5.0_@algolia+client-search@5.18.0_postcss@8.4.49_search-insights@2.17.3/node_modules/vitepress/dist/client/theme-default/support/utils.js
 import { withBase } from "vitepress";
@@ -157,6 +157,11 @@ import { onContentUpdated } from "vitepress";
 
 // node_modules/.pnpm/vitepress@1.5.0_@algolia+client-search@5.18.0_postcss@8.4.49_search-insights@2.17.3/node_modules/vitepress/dist/client/theme-default/composables/outline.js
 import { getScrollOffset } from "vitepress";
+
+// node_modules/.pnpm/vitepress@1.5.0_@algolia+client-search@5.18.0_postcss@8.4.49_search-insights@2.17.3/node_modules/vitepress/dist/client/theme-default/composables/aside.js
+import { useMediaQuery as useMediaQuery2 } from "@vueuse/core";
+
+// node_modules/.pnpm/vitepress@1.5.0_@algolia+client-search@5.18.0_postcss@8.4.49_search-insights@2.17.3/node_modules/vitepress/dist/client/theme-default/composables/outline.js
 var resolvedHeaders = [];
 function getHeaders(range) {
   const headers = [

@@ -1,8 +1,9 @@
 <div align="center">
 
-**English** | [简体中文][readme-zh-link]  <br />
+[English][readme-en-link]| **简体中文**  <br />
 
-[readme-zh-link]: ./README-zh.md
+[readme-en-link]: ./README.md
+
 </div>
 
 ## 写在前面

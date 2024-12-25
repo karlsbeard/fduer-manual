@@ -11,13 +11,13 @@ const nav: ThemeConfig['nav'] = [
     text: "校招经验",
     items: [
       {
-        text: "互联网", link: "/experience/internet",
+        text: "互联网", link: "/experience/internet/backend/java",
       },
       {
-        text: "泛体制", link: "/experience/system",
+        text: "泛体制", link: "/experience/system/three-oil",
       },
       {
-        text: "其他行业", link: "/experience/other-industries",
+        text: "其他行业", link: "/experience/finance/management-trainee",
       },
       {
         text: "杂谈", link: "/experience/others",
@@ -35,9 +35,6 @@ const sidebar: ThemeConfig['sidebar'] = {
       text: "后端",
       items: [
         {
-          text: '写在前面', link: "/experience/internet/backend/index",
-        },
-        {
           text: 'java', link: "/experience/internet/backend/java",
         },
         {
@@ -49,9 +46,6 @@ const sidebar: ThemeConfig['sidebar'] = {
       text: "前端",
       items: [
         {
-          text: '写在前面', link: "/experience/internet/frontend/index",
-        },
-        {
           text: 'JavaScript', link: "/experience/internet/frontend/js",
         },
         {
@@ -59,7 +53,56 @@ const sidebar: ThemeConfig['sidebar'] = {
         }
       ]
     },
+    {
+      text: "算法",
+      items: [
+        {
+          text: '美团算法', link: "/experience/internet/ai/index",
+        },
+      ]
+    },
+    {
+      text: "产品",
+      items: [
+        {
+          text: '佩琦', link: "/experience/internet/product/index",
+        },
+      ]
+    },
   ],
+  "/experience/system": [
+    {
+      text: '国央企', items: [
+        {
+          text: '三桶油', link: "/experience/system/three-oil",
+        },
+        {
+          text: '国家电网', link: "/experience/system/state-grid",
+        },
+      ],
+      
+    },
+    {
+      text: '公务员', items: [
+        {
+          text: '公务员', link: "/experience/system/civil-servant",
+        },
+      ]
+    }
+  ],
+  "experience/finance": [
+    {
+      text: '银行', items: [
+        {
+          text: '银行管培生', link: "/experience/finance/management-trainee",
+        },
+        {
+          text: '银行数据中心', link: "/experience/finance/data-center",
+        },
+      ],
+    },
+   
+  ]
 };
 
 // https://vitepress.dev/reference/site-config

@@ -49,7 +49,19 @@ const sidebar: ThemeConfig['sidebar'] = {
         },
         {
           text: 'TypeScript', link: "/experience/internet/frontend/ts",
-        }
+        },
+        {
+          text: 'React', link: "/experience/internet/frontend/react",
+        },
+        {
+          text: 'Vue', link: "/experience/internet/frontend/vue",
+        },
+        {
+          text: 'Css', link: "/experience/internet/frontend/css",
+        },
+        {
+          text: 'Html', link: "/experience/internet/frontend/html",
+        },
       ]
     },
     {

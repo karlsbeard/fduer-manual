@@ -24,8 +24,8 @@ const nav: ThemeConfig['nav'] = [
     ]
     
   },
-  { text: "择业指南", link: "/choose-career" },
-  { text: "校友访谈", link: "/record" },
+  { text: "择业指南", link: "/guidance/pre" },
+  { text: "校友访谈", link: "/interviews/pre" },
 ];
 
 const sidebar: ThemeConfig['sidebar'] = {
@@ -144,6 +144,45 @@ const sidebar: ThemeConfig['sidebar'] = {
           text: '信息差', link: "/in-school/earn-message",
         },
       ],
+    }
+  ],
+  "interviews": [
+    {
+      text: '校友访谈', items: [
+        {
+          text: '写在前面', link: "/interviews/pre",
+        }
+      ]
+    }
+  ],
+  "guidance": [
+    {
+      text: '择业指南', items: [
+        {
+          text: '写在前面', link: "/guidance/pre",
+        },
+        {
+          text: '互联网', link: "/guidance/internet",
+        },
+        {
+          text: '金融业', link: "/guidance/finance",
+        },
+        {
+          text: '央国企', link: "/guidance/state",
+        },
+        {
+          text: '智能制造业', link: "/guidance/iot",
+        },
+        {
+          text: '传媒业', link: "/guidance/news",
+        },
+        {
+          text: '公务员&事业单位', link: "/guidance/system",
+        },
+        {
+          text: '其他', link: "/guidance/other",
+        }
+      ]
     }
   ]
 };

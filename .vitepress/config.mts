@@ -151,6 +151,63 @@ const sidebar: ThemeConfig['sidebar'] = {
       text: '校友访谈', items: [
         {
           text: '写在前面', link: "/interviews/pre",
+        },
+        {
+          text: '08届Google售后经理', link: "/interviews/08-google",
+        },
+        {
+          text: '20届Nvidia开发', link: "/interviews/20-nvidia",
+        },
+        {
+          text: '24届博-F-互联网大厂算法工程师', link: "/interviews/24-f-ai",
+        },
+        {
+          text: '23届硕-崔女士-华为系统预研', link: '/interviews/23-c-hw',
+        },
+        {
+          text: '97届本-某学长-一级市场股权投资', link: '/interviews/97-b-investment',
+        },
+        {
+          text: '23届硕-佩奇-互联网大厂产品经理', link: '/interviews/23-p-product',
+        },
+        {
+          text: '22届硕-司学长-某电池仿真公司技术销售', link: '/interviews/22-s-sales',
+        },
+        {
+          text: '03届博-王真星-上海第二工业大学副教授', link: '/interviews/03-w-teacher',
+        },
+        {
+          text: '23届硕-肖钒-腾讯音乐大模型算法工程师', link: '/interviews/23-x-music',
+        },
+        {
+          text: '23届硕-肖杨-微软上海软件开发', link: '/interviews/23-x-ms',
+        },
+        {
+          text: '22届硕-C-大模型公司AI Infra工程师', link: '/interviews/22-c-ai',
+        },
+        {
+          text: '24届硕-陈学长-java后端工程师', link: '/interviews/24-c-java',
+        },
+        {
+          text: '23届硕-陈学长-某国企后端开发工程师', link: '/interviews/23-c-state',
+        },
+        {
+          text: '09届MSE-姜先生-招商门户创业', link: '/interviews/09-j-entrepreneur',
+        },
+        {
+          text: '10届硕-李同学-某三甲医院', link: '/interviews/10-l-hospital',
+        },
+        {
+          text: '23届硕-苏锐-某省直事业单位软件开发', link: '/interviews/23-s-system',
+        },
+        {
+          text: '20届硕-王先生-某头部券商程序化研究员', link: '/interviews/20-w-research',
+        },
+        {
+          text: '23届硕-许学长-地平线后台开发', link: '/interviews/23-x-horizon',
+        },
+        {
+          text: '23届硕-张先生-某央企研究院', link: '/interviews/23-z-research',
         }
       ]
     }

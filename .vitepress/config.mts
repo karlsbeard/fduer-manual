@@ -4,8 +4,7 @@ import baseConfig from '@vue/theme/config'
 
 const nav: ThemeConfig['nav'] = [
   {
-    text: "在校准备",
-    link: "/prepare-in-school",
+    text: "在校准备", link: "/in-school/pre",
   },
   {
     text: "校招经验",
@@ -17,10 +16,10 @@ const nav: ThemeConfig['nav'] = [
         text: "泛体制", link: "/experience/system/three-oil",
       },
       {
-        text: "其他行业", link: "/experience/finance/management-trainee",
+        text: "银行", link: "/experience/finance/management-trainee",
       },
       {
-        text: "杂谈", link: "/experience/others",
+        text: "杂谈", link: "/experience/others/pre",
       },
     ]
     
@@ -101,7 +100,51 @@ const sidebar: ThemeConfig['sidebar'] = {
         },
       ],
     },
-   
+  ],
+  "experience/others": [
+    {
+      text: '杂谈', items: [
+        {
+          text: '写在前面', link: "/experience/others/pre",
+        },
+        {
+          text: '结构化面试', link: "/experience/others/struct",
+        },
+        {
+          text: '无领导小组讨论/辩论赛', link: "/experience/others/group",
+        },
+        {
+          text: '主管面', link: "/experience/others/manager",
+        },
+      ],
+    } 
+  ],
+  "in-school": [
+    {
+      text: '准备', items: [
+        {
+          text: '写在前面', link: "/in-school/pre",
+        },
+        {
+          text: '成绩与评优', link: "/in-school/gpa",
+        },
+        {
+          text: '实习', link: "/in-school/practice",
+        },
+        {
+          text: '科研论文', link: "/in-school/conference",
+        },
+        {
+          text: '竞赛', link: "/in-school/competition",
+        },
+        {
+          text: '综合发展', link: "/in-school/synthesized",
+        },
+        {
+          text: '信息差', link: "/in-school/earn-message",
+        },
+      ],
+    }
   ]
 };
 

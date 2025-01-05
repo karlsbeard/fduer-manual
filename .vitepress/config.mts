@@ -220,6 +220,12 @@ const sidebar: ThemeConfig['sidebar'] = {
         },
         {
           text: '23届硕-张先生-某央企研究院', link: '/interviews/23-z-research',
+        },
+        {
+          text: '24届硕-徐学长-招商银行管培生经验', link: '/interviews/24-rz-finance-manager',
+        },
+        {
+          text: '24届硕-x学长-教培创业', link: '/interviews/24-jp-entrepreneur',
         }
       ]
     }

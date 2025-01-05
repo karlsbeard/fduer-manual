@@ -16,6 +16,12 @@ export default defineConfigWithTheme({
     socialLinks: [
       { icon: "github", link: "https://github.com/karlsbeard/fduer-manual" },
     ],
+
+    footer: {
+      // @ts-ignore
+      message: '<a href="https://github.com/karlsbeard/fduer-manual/blob/main/LICENSE">MIT License</a> © 2025 EggCampus',
+      copyright: '<a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2022029133号-1</a>',
+    }
   },
   vite: {
     server: {

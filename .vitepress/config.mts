@@ -20,7 +20,7 @@ export default defineConfigWithTheme({
     footer: {
       // @ts-ignore
       message: `
-      本站总访问量<span id="vercount_value_site_pv">Loading</span>次
+      本站总访问量<span id="vercount_value_site_pv">Loading</span>次 总访客数<span id="vercount_value_site_uv">Loading</span>人
       <br>
       <a href="https://github.com/karlsbeard/fduer-manual/blob/main/LICENSE">MIT License</a> © 2025 EggCampus
       `,

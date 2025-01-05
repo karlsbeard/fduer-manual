@@ -5,7 +5,7 @@
             repo="karlsbeard/fduer-manual"
             repoid="R_kgDONgpMZQ"
             category="General"
-            categoryid="DIC_kwDOIN2Mes4CenDn"
+            categoryid="DIC_kwDONgpMZc4Clu62"
             mapping="pathname"
             term="Welcome to giscus!"
             reactionsenabled="1"

@@ -19,10 +19,17 @@ export default defineConfigWithTheme({
 
     footer: {
       // @ts-ignore
-      message: '<a href="https://github.com/karlsbeard/fduer-manual/blob/main/LICENSE">MIT License</a> © 2025 EggCampus',
+      message: `
+      本站总访问量<span id="vercount_value_site_pv">Loading</span>次
+      <br>
+      <a href="https://github.com/karlsbeard/fduer-manual/blob/main/LICENSE">MIT License</a> © 2025 EggCampus
+      `,
       copyright: '<a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2022029133号-1</a>',
     }
   },
+  head: [
+    ['script', { defer: '', async: '', src: 'https://cn.vercount.one/js' }]
+  ],
   vite: {
     server: {
       port: 3000,

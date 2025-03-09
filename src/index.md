@@ -27,3 +27,7 @@ features:
 
 ---
 
+<div class="authors" style="margin-top: 4rem; text-align: center; color: var(--vp-c-text-2); font-size: 0.875rem;">
+<p>主编：王世聪</p>
+<p>编委成员：曲玥，保昱冰，郑岚一，张昊，郑天伦，彭佳汉，黄丙晨，李争彦，徐瑞泽，于康，袁一帆，陈嵘，蒋雨宸，栗子</p>
+</div>

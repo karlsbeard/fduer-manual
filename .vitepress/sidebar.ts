@@ -75,13 +75,16 @@ export const sidebar: ThemeConfig['sidebar'] = {
     ],
     "experience/finance": [
       {
-        text: '银行', items: [
+        text: '金融', items: [
           {
             text: '银行管培生', link: "/experience/finance/management-trainee",
           },
           {
             text: '银行数据中心', link: "/experience/finance/data-center",
           },
+          {
+            text: '量化金融', link: "/experience/finance/quantify"
+          }
         ],
       },
     ],
@@ -225,6 +228,9 @@ export const sidebar: ThemeConfig['sidebar'] = {
           },
           {
             text: '公务员&事业单位', link: "/guidance/system",
+          },
+          {
+            text: '量化', link: "guidance/quantify"
           },
           {
             text: '其他', link: "/guidance/other",
